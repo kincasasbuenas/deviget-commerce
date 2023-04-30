@@ -348,6 +348,8 @@ return [
         'Magento_WishlistSampleData' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Temando_ShippingRemover' => 1
+        'Temando_ShippingRemover' => 1,
+        'WeltPixel_Backend' => 1,
+        'WeltPixel_OwlCarouselSlider' => 1
     ]
 ];
