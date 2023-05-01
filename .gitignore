@@ -31,3 +31,4 @@
 !/pub
 !/pub/*/
 /.ddev
+!/pub/media/
