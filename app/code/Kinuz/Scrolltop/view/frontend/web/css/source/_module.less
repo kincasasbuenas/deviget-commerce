@@ -1,0 +1,26 @@
+//
+//  Common (styles-m.css)
+//  _____________________________________________
+& when (@media-common = true) {
+    #scrollTop {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background-color: #65c5e9;
+        color: #000;
+        border: 1px solid #cfcfcf;
+        z-index: 9999;
+        cursor: pointer;
+        display: none;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        &:before{
+            font-size: 22px;
+            .lib-css(content, @icon-arrow-up);
+            .lib-css(font-family, @icons__font-name);
+            .lib-css(color, #000);
+        }
+    }
+}

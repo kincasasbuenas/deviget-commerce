@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+    <vars module="Magento_Catalog">
+
+        <var name="magnifier">
+            <var name="fullscreenzoom">10</var>
+            <var name="top">500</var>
+            <var name="left">650</var>
+            <var name="width">200</var>
+            <var name="height">200</var>
+            <var name="eventType">hover</var>
+            <var name="enabled">true</var>
+            <var name="mode">outside</var>
+        </var>
+    </vars>
+</view>
